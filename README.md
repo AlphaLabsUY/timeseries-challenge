@@ -1,20 +1,23 @@
-# Challenge
+# Challenge:
 
-El objetivo de esta ejercio es desarrollar diferentes modelos de forecasting para series de tiempo en un contexto real.
+![image](https://user-images.githubusercontent.com/57304126/162757374-eef49e19-1124-4cf1-bde3-53c6a060347e.png)
 
-Para realizar este ejercicio vas a tener acceso a un dataset con el numero de productos vendidos por diferentes tiendas a lo largo de 5 años, la idea es usar esa data para predecir las ventas de cada uno de las tiendas en el ultimo mes del dataset (validación).
+## Objetivo:
+El siguiente ejercicio tiene como objetivo que el candidato, cuenta con los conceptos básico para el procesamiento y modelados de un problema de forecasting de series de tiempo.
 
+Tendrás acceso a un dataset con el numero de productos vendidos por diferentes tiendas en un plazo de 5 años. A partir de estos datos, deberás predecir las ventas de cada uno de las tiendas en el ultimo mes del dataset (validación).
+
+## Hitos:
 Los hitos que debes desarrollar son:
 
-- Realizar un breve exploratoria de los datos
-- Definir una metrica para evaluar el performance del modelo
-- Entrena un modelo con algoritmos clasicos (arima/sarimax/etc), tunear y evaluar en el set de validacion.
-- Entrenar un modelo de redes neuronales multi-step (RNN/CNN/etc), tunear y evaluar en el set de validacion.
-- Generar una graficas con la prediccion v/s la realidad de cada uno de los modelos en el set de validación.
+1. Definir una metrica para evaluar el performance del modelo.
+2. Explicitar estrategia de procesamiento y feature engineering: Diferencia, logarítmo, depuración de outliers, etc.
+3. Entrena un modelo con un enfoque clásico: ARIMA, SARIMAX.
+4. Entrenar un modelo de redes neuronales multi-step (RNN/CNN/etc).
+5. Generar una grafica con la prediccion v/s la realidad de cada uno de los modelos en el set de validación.
 
-Puedes realizar el feature engineering que estimes necesario para mejorar el performance de los modelos.
+> :warning: **NO** es necesario completar todos los Hitos, el candidato podrá seleccionar aquellos que crea relevante o estén más próximos a su nivel de conocimiento.
 
-Requisitos:
+## Requisitos:
 - El codigo tiene que estar escrito en python (puede ser un script o un notebook)
 - El codigo tiene que ser reproducible (lista dependencias usadas + codigo a ejecutar)
-- El entregable final debe contener todo el codigo 
